@@ -2,12 +2,12 @@
 <head>
 <title> PHP test - Jenkins - Openshift</title>
 </head>
-
-<body style="background-color:lemonchiffon;">
+<body>
+<!--<body style="background-color:lemonchiffon;">-->
 <!--<body style="background-color:powderblue;">-->  
 
 <!--<?php echo '<h1 style="background-color:rgba(255, 99, 71, 0.5);font-family:verdana;text-align:center;">Heippa Maailma</h1>'; ?>-->
-
+<?php echo '<h1>Heippa maailma</h1>'; ?>
   
 <?php echo '<p>Mitä kuuluu?</p>'; ?>
 <?php echo '<p>Valtori pilvipäivä 14.3.</p>'; ?>
@@ -23,6 +23,6 @@ $d2=ceil(($d1-time())/60/60/24);
 echo "Vielä " . $d2 ." päivää juhannukseen.";
 ?>
 <!--echo "<p style='text-align:center;font-size:120%;font-family:tahoma'>Vielä " . $d2 ." päivää juhannukseen.</p>";-->  
-<?php echo '<h1 style="background-color:rgba(255, 99, 71, 0.5);font-family:verdana;text-align:center;">Heippa Sanna</h1>'; ?>
+
 </body>
 </html>
