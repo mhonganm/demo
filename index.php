@@ -22,6 +22,6 @@ $d2=ceil(($d1-time())/60/60/24);
 echo "Vielä " . $d2 ." päivää juhannukseen.";
 ?>
 <!--echo "<p style='text-align:center;font-size:120%;font-family:tahoma'>Vielä " . $d2 ." päivää juhannukseen.</p>";-->  
-
+Heippa Verokarhut
 </body>
 </html>
